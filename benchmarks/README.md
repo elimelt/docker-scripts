@@ -17,7 +17,7 @@ To invistigate this, I settled for a simple setup to measure throughput. I have 
 
 I also wrote a python script to generate a `docker-compose` file with a constant number of clients, and a parameter number of servers deployable. In this way, the overall load on the system should scale linearly with the number of servers provisioned. 
 
-To be clear, I am not pushing these systems to their limit, and instead am putting a constant load on each of the servers, and seeing how overall system performance is maintained when the scale of an application increases linearly. I will run the same experiment with a variable number of servers all running in their own process.
+To be clear, I am not pushing these nodes to their limit, and instead am putting a constant load on each of the servers, and seeing how overall system performance is maintained when the scale of an application increases linearly. I will run the same experiment with a variable number of servers all running in their own process.
 
 
 ## Running
