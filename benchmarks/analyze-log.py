@@ -10,8 +10,9 @@ def parse_log_file(filename):
     
     requests = [line.strip() for line in content if "Incoming request POST" in line]
     responses = [line.strip() for line in content if "Received response at" in line]
-    
-    return requests, responses
+    # errors = [line.strip() for line in content if "Error" in line]
+
+    return requests, responses #, errors
 
 def count_incoming_requests(requests):
     """
@@ -37,7 +38,7 @@ def process_file(filename):
     total_requests = count_incoming_requests(requests)
     total_responses = count_received_responses(responses)
     
-    # Extract timestamps from the first and last response to get the total time taken
+    # Eextract timestamps from the first and last response to get total time 
     first_response_time = re.search(r"at (\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}.\d{3}Z)", responses[0])
     last_response_time = re.search(r"at (\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}.\d{3}Z)", responses[-1])
     
@@ -83,22 +84,19 @@ def plot_report(report):
     plt.ylabel('Throughput')
     plt.title('Throughput vs Number of Servers')
 
-    # Save the plot
+    # save plot
     plt.savefig('throughput.png')
 
 
 def main():
     report = parse_logs()
-
-    # Plot the report
     plot_report(report)
 
-    # Print the report
+    # print report
     for num_servers, stats in sorted(report.items()):
         print(f"\nReport for {num_servers} servers:")
         for key, value in stats.items():
             print(f"{key}: {value:.3f}")
 
 if __name__ == "__main__":
-    import os
     main()
