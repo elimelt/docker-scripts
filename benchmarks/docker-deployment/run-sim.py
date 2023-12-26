@@ -71,8 +71,18 @@ def run_simulation(num_servers):
     print(f"Simulation for {num_servers} servers completed. Results saved in {result_file}")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Run simulation with Docker Compose for a specified number of servers.")
-    parser.add_argument("-n", "--num-servers", type=int, required=True, help="Number of server containers.")
-    args = parser.parse_args()
+    # interactive mode
 
-    run_simulation(args.num_servers)
+    # parser = argparse.ArgumentParser(description="Run simulation with Docker Compose for a specified number of servers.")
+    # parser.add_argument("-n", "--num-servers", type=int, required=True, help="Number of server containers.")
+    # args = parser.parse_args()
+
+    # run_simulation(args.num_servers)
+
+
+    # batch mode
+    for i in [1, 2, 4, 8, 16, 24, 32, 40, 48, 56, 64]:
+        run_simulation(i)
+
+
+

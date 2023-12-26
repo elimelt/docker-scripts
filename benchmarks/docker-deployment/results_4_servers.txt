@@ -1,646 +1,695 @@
-server4-1  | server listening on port 3000!
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:27.794Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:28.761Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:29.772Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:30.757Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:31.235Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:31.403Z
-client5-1  | Starting client 5 with ports 3002 to 3005
-client5-1  | Server ports: 3002,3003,3004,3005
-client5-1  | Received response at 2023-12-25T02:23:31.237Z from http://server1:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:31.239Z from http://server2:3000/ping
-client1-1  | Starting client 1 with ports 3002 to 3005
-client1-1  | Server ports: 3002,3003,3004,3005
-client1-1  | Received response at 2023-12-25T02:23:31.814Z from http://server1:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:31.814Z from http://server4:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:31.815Z from http://server2:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:31.816Z from http://server3:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:32.801Z from http://server3:3000/ping
-client2-1  | Starting client 2 with ports 3002 to 3005
-client2-1  | Server ports: 3002,3003,3004,3005
-client1-1  | Received response at 2023-12-25T02:23:32.802Z from http://server2:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:32.803Z from http://server1:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:32.803Z from http://server4:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:33.803Z from http://server2:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:33.804Z from http://server3:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:33.804Z from http://server1:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:33.804Z from http://server4:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:34.802Z from http://server3:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:34.802Z from http://server2:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:34.802Z from http://server4:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:34.804Z from http://server1:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:35.805Z from http://server1:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:35.805Z from http://server2:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:35.805Z from http://server4:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:35.806Z from http://server3:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:36.812Z from http://server2:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:36.812Z from http://server1:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:36.813Z from http://server4:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:36.814Z from http://server3:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:37.814Z from http://server1:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:37.814Z from http://server2:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:37.815Z from http://server3:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:37.815Z from http://server4:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:38.812Z from http://server2:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:38.812Z from http://server4:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:38.813Z from http://server1:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:38.813Z from http://server3:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:39.813Z from http://server1:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:39.813Z from http://server3:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:39.813Z from http://server4:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:39.814Z from http://server2:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:40.817Z from http://server1:3000/ping
-server1-1  | server listening on port 3000!
-client4-1  | Starting client 4 with ports 3002 to 3005
-client4-1  | Server ports: 3002,3003,3004,3005
-server2-1  | server listening on port 3000!
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:27.793Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:28.760Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:29.765Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:30.757Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:31.234Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:31.402Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:31.726Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:31.760Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:31.811Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:32.221Z
-client1-1  | Received response at 2023-12-25T02:23:40.817Z from http://server2:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:40.817Z from http://server3:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:40.818Z from http://server4:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:41.818Z from http://server2:3000/ping
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:31.726Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:31.761Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:31.811Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:32.227Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:32.389Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:32.710Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:32.770Z
 client3-1  | Starting client 3 with ports 3002 to 3005
-client3-1  | Server ports: 3002,3003,3004,3005
-client3-1  | Received response at 2023-12-25T02:23:27.798Z from http://server3:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:31.406Z from http://server1:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:31.407Z from http://server2:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:31.407Z from http://server3:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:31.407Z from http://server4:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:32.391Z from http://server1:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:32.391Z from http://server2:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:32.392Z from http://server3:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:32.393Z from http://server4:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:33.393Z from http://server4:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:33.394Z from http://server2:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:33.394Z from http://server1:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:33.395Z from http://server3:3000/ping
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:32.801Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:33.226Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:33.391Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:33.716Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:33.770Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:33.802Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:34.232Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:34.397Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:34.717Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:34.772Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:34.801Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:35.226Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:35.402Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:35.721Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:35.775Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:35.804Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:36.236Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:36.410Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:36.727Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:36.778Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:36.810Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:37.239Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:27.793Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:28.760Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:29.764Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:30.757Z
-client1-1  | Received response at 2023-12-25T02:23:41.819Z from http://server3:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:41.819Z from http://server4:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:41.820Z from http://server1:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:42.819Z from http://server1:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:42.819Z from http://server2:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:28.381Z from http://server1:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:28.382Z from http://server2:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:28.382Z from http://server4:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:28.383Z from http://server3:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:29.368Z from http://server3:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:29.368Z from http://server1:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:29.369Z from http://server2:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:29.369Z from http://server4:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:30.366Z from http://server1:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:30.367Z from http://server3:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:30.367Z from http://server2:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:30.368Z from http://server4:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:31.367Z from http://server2:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:31.367Z from http://server1:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:31.367Z from http://server3:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:31.367Z from http://server4:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:32.367Z from http://server4:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:32.367Z from http://server2:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:32.367Z from http://server3:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:32.368Z from http://server1:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:33.368Z from http://server2:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:33.368Z from http://server1:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:33.368Z from http://server3:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:33.370Z from http://server4:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:34.370Z from http://server1:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:34.370Z from http://server2:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:34.371Z from http://server3:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:34.371Z from http://server4:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:35.371Z from http://server1:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:35.371Z from http://server2:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:35.371Z from http://server3:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:35.371Z from http://server4:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:36.371Z from http://server1:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:36.371Z from http://server4:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:36.371Z from http://server3:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:36.372Z from http://server2:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:37.372Z from http://server2:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:37.372Z from http://server1:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:37.373Z from http://server4:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:37.373Z from http://server3:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:38.374Z from http://server3:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:38.374Z from http://server2:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:38.376Z from http://server1:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:38.376Z from http://server4:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:39.377Z from http://server1:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:39.378Z from http://server2:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:39.379Z from http://server3:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:39.379Z from http://server4:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:40.380Z from http://server3:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:40.380Z from http://server4:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:40.380Z from http://server1:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:40.381Z from http://server2:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:41.382Z from http://server2:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:41.383Z from http://server1:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:41.383Z from http://server3:3000/ping
+client3-1  | Received response at 2023-12-26T09:46:41.383Z from http://server4:3000/ping
+client4-1  | Starting client 4 with ports 3002 to 3005
+client4-1  | Received response at 2023-12-26T09:46:24.052Z from http://server4:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:24.066Z from http://server1:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:24.067Z from http://server3:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:24.110Z from http://server2:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:24.965Z from http://server1:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:24.965Z from http://server3:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:24.996Z from http://server2:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:24.997Z from http://server4:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:25.945Z from http://server1:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:25.945Z from http://server2:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:25.948Z from http://server4:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:25.949Z from http://server3:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:26.943Z from http://server2:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:26.944Z from http://server1:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:26.944Z from http://server4:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:26.944Z from http://server3:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:27.945Z from http://server2:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:27.946Z from http://server1:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:27.946Z from http://server4:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:27.946Z from http://server3:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:28.946Z from http://server2:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:28.946Z from http://server4:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:28.946Z from http://server1:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:28.947Z from http://server3:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:29.948Z from http://server3:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:29.949Z from http://server4:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:29.949Z from http://server1:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:29.950Z from http://server2:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:30.950Z from http://server1:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:30.950Z from http://server3:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:30.950Z from http://server2:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:30.950Z from http://server4:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:31.950Z from http://server3:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:31.950Z from http://server1:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:31.950Z from http://server4:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:31.951Z from http://server2:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:32.951Z from http://server1:3000/ping
+client1-1  | Starting client 1 with ports 3002 to 3005
+client1-1  | Error waiting for response from [object Promise]: connect ECONNREFUSED 172.21.0.10:3000
+client1-1  | Error waiting for response from [object Promise]: connect ECONNREFUSED 172.21.0.8:3000
+client1-1  | Received response at 2023-12-26T09:46:23.753Z from http://server4:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:23.921Z from http://server2:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:24.696Z from http://server4:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:24.705Z from http://server1:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:32.951Z from http://server3:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:32.951Z from http://server2:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:32.951Z from http://server4:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:33.979Z from http://server1:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:33.979Z from http://server2:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:33.980Z from http://server3:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:33.980Z from http://server4:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:34.981Z from http://server3:3000/ping
+client2-1  | Starting client 2 with ports 3002 to 3005
+client2-1  | Received response at 2023-12-26T09:46:26.597Z from http://server1:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:26.597Z from http://server4:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:26.598Z from http://server2:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:26.598Z from http://server3:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:34.982Z from http://server2:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:34.982Z from http://server1:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:34.982Z from http://server4:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:35.979Z from http://server1:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:35.980Z from http://server3:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:35.980Z from http://server2:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:35.981Z from http://server4:3000/ping
+server1-1  | server listening on port 3000!
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:24.063Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:24.494Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:24.694Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:24.959Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:25.471Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:25.661Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:25.944Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:26.477Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:26.594Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:26.662Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:26.943Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:27.465Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:27.586Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:27.662Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:27.945Z
+server4-1  | server listening on port 3000!
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:23.747Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:23.974Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:24.498Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:24.694Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:24.996Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:25.467Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:25.663Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:25.947Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:28.377Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:28.467Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:28.588Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:28.663Z
+client1-1  | Received response at 2023-12-26T09:46:24.715Z from http://server3:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:24.716Z from http://server2:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:25.663Z from http://server1:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:25.663Z from http://server2:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:25.664Z from http://server3:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:25.664Z from http://server4:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:26.662Z from http://server2:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:27.587Z from http://server1:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:27.588Z from http://server3:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:27.588Z from http://server2:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:27.588Z from http://server4:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:28.588Z from http://server2:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:28.589Z from http://server1:3000/ping
+server2-1  | server listening on port 3000!
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:23.918Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:24.103Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:24.501Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:24.715Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:24.995Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:25.464Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:25.662Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:25.944Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:26.484Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:26.595Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:26.661Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:26.943Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:27.465Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:27.587Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:27.662Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:27.945Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:28.377Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:28.467Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:28.588Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:28.663Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:28.945Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:29.367Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:29.467Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:28.945Z
+client1-1  | Received response at 2023-12-26T09:46:26.663Z from http://server4:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:26.663Z from http://server1:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:26.665Z from http://server3:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:28.589Z from http://server3:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:28.590Z from http://server4:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:29.589Z from http://server1:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:29.590Z from http://server2:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:29.591Z from http://server3:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:29.591Z from http://server4:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:30.590Z from http://server1:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:30.591Z from http://server3:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:30.591Z from http://server2:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:30.592Z from http://server4:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:31.590Z from http://server4:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:27.662Z from http://server1:3000/ping
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:26.487Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:26.594Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:26.661Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:26.943Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:27.465Z
 server3-1  | server listening on port 3000!
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:27.793Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:28.762Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:32.389Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:32.709Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:32.769Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:32.800Z
-client2-1  | Received response at 2023-12-25T02:23:34.399Z from http://server3:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:34.399Z from http://server4:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:34.400Z from http://server1:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:34.400Z from http://server2:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:35.404Z from http://server1:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:35.405Z from http://server3:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:35.405Z from http://server2:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:35.406Z from http://server4:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:42.820Z from http://server3:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:42.820Z from http://server4:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:31.239Z from http://server3:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:31.239Z from http://server4:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:32.223Z from http://server1:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:32.224Z from http://server2:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:36.411Z from http://server3:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:36.412Z from http://server1:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:36.413Z from http://server4:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:36.413Z from http://server2:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:37.419Z from http://server1:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:37.420Z from http://server2:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:37.420Z from http://server3:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:37.420Z from http://server4:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:38.421Z from http://server1:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:38.422Z from http://server3:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:32.225Z from http://server3:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:32.229Z from http://server4:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:43.817Z from http://server2:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:43.817Z from http://server3:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:43.817Z from http://server4:3000/ping
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:29.764Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:30.758Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:31.234Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:31.402Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:31.729Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:31.761Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:31.811Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:32.222Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:32.389Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:32.709Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:32.770Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:32.800Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:33.226Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:37.418Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:37.737Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:37.779Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:33.225Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:33.391Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:33.716Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:33.770Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:33.802Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:34.232Z
-client4-1  | Received response at 2023-12-25T02:23:31.730Z from http://server1:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:31.732Z from http://server2:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:31.732Z from http://server4:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:31.733Z from http://server3:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:27.799Z from http://server2:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:27.799Z from http://server1:3000/ping
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:33.393Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:33.716Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:33.770Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:33.802Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:34.232Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:34.397Z
-client2-1  | Received response at 2023-12-25T02:23:38.422Z from http://server2:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:38.423Z from http://server4:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:39.421Z from http://server2:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:39.421Z from http://server1:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:27.799Z from http://server4:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:28.763Z from http://server1:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:28.763Z from http://server2:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:28.764Z from http://server4:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:28.765Z from http://server3:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:29.768Z from http://server1:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:29.769Z from http://server3:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:29.769Z from http://server2:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:29.774Z from http://server4:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:30.758Z from http://server1:3000/ping
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:37.813Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:38.239Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:38.419Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:38.734Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:38.782Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:38.811Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:39.244Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:39.419Z
-client1-1  | Received response at 2023-12-25T02:23:43.818Z from http://server1:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:44.822Z from http://server2:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:44.823Z from http://server3:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:44.823Z from http://server1:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:44.824Z from http://server4:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:45.824Z from http://server2:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:45.824Z from http://server1:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:45.825Z from http://server3:3000/ping
-client1-1  | Received response at 2023-12-25T02:23:45.825Z from http://server4:3000/ping
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:34.717Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:34.770Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:34.801Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:35.226Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:35.401Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:35.720Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:35.775Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:35.804Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:31.233Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:31.402Z
-client2-1  | Received response at 2023-12-25T02:23:39.422Z from http://server4:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:39.422Z from http://server3:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:40.424Z from http://server1:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:40.424Z from http://server2:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:40.425Z from http://server3:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:40.426Z from http://server4:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:41.425Z from http://server1:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:41.426Z from http://server3:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:41.427Z from http://server4:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:41.427Z from http://server2:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:42.434Z from http://server1:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:42.435Z from http://server2:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:42.435Z from http://server3:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:42.436Z from http://server4:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:43.439Z from http://server1:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:43.440Z from http://server4:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:43.440Z from http://server2:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:43.441Z from http://server3:3000/ping
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:34.398Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:34.717Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:34.770Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:34.801Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:36.235Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:36.409Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:36.727Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:36.778Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:36.812Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:37.240Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:37.418Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:37.736Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:35.226Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:35.402Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:35.720Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:35.776Z
-client4-1  | Received response at 2023-12-25T02:23:32.711Z from http://server1:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:32.712Z from http://server2:3000/ping
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:37.779Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:37.812Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:39.745Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:39.781Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:39.811Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:40.249Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:40.422Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:40.743Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:40.795Z
-client5-1  | Received response at 2023-12-25T02:23:33.228Z from http://server2:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:33.229Z from http://server3:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:33.229Z from http://server1:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:33.231Z from http://server4:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:34.235Z from http://server2:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:34.235Z from http://server3:3000/ping
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:40.816Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:41.254Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:41.424Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:41.747Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:38.238Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:38.418Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:38.734Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:38.781Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:38.811Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:31.725Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:31.761Z
-client3-1  | Received response at 2023-12-25T02:23:30.758Z from http://server4:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:30.758Z from http://server2:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:30.758Z from http://server3:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:31.762Z from http://server2:3000/ping
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:39.244Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:39.420Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:39.743Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:39.781Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:39.811Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:35.804Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:36.235Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:36.410Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:36.726Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:31.810Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:32.221Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:32.389Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:32.709Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:32.769Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:32.800Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:33.225Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:33.391Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:33.716Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:41.798Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:41.817Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:42.258Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:42.433Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:42.750Z
-client3-1  | Received response at 2023-12-25T02:23:31.762Z from http://server4:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:31.762Z from http://server3:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:34.236Z from http://server4:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:34.236Z from http://server1:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:35.227Z from http://server1:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:35.227Z from http://server2:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:35.227Z from http://server3:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:35.228Z from http://server4:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:32.712Z from http://server3:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:32.713Z from http://server4:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:33.718Z from http://server1:3000/ping
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:40.248Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:40.422Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:40.743Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:36.777Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:36.810Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:37.239Z
-client3-1  | Received response at 2023-12-25T02:23:31.763Z from http://server1:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:32.771Z from http://server1:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:32.772Z from http://server2:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:32.773Z from http://server3:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:32.774Z from http://server4:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:36.237Z from http://server1:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:36.238Z from http://server3:3000/ping
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:33.770Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:33.802Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:34.231Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:34.396Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:34.716Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:34.769Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:34.803Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:35.226Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:35.401Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:35.720Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:35.775Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:35.803Z
-client3-1  | Received response at 2023-12-25T02:23:33.772Z from http://server1:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:33.772Z from http://server2:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:36.239Z from http://server2:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:36.240Z from http://server4:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:37.241Z from http://server1:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:37.241Z from http://server2:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:37.242Z from http://server4:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:37.243Z from http://server3:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:38.240Z from http://server1:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:38.241Z from http://server3:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:38.241Z from http://server4:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:38.242Z from http://server2:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:39.246Z from http://server2:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:39.247Z from http://server3:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:39.247Z from http://server4:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:39.248Z from http://server1:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:40.250Z from http://server1:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:40.251Z from http://server3:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:40.252Z from http://server4:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:40.252Z from http://server2:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:41.256Z from http://server1:3000/ping
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:40.793Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:40.815Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:41.254Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:41.423Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:41.747Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:41.798Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:41.817Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:42.258Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:37.417Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:37.736Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:37.779Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:37.812Z
-client4-1  | Received response at 2023-12-25T02:23:33.719Z from http://server2:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:33.720Z from http://server3:3000/ping
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:42.433Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:42.750Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:36.235Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:36.409Z
-client5-1  | Received response at 2023-12-25T02:23:41.257Z from http://server2:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:41.257Z from http://server4:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:44.445Z from http://server1:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:44.445Z from http://server3:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:44.446Z from http://server4:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:44.447Z from http://server2:3000/ping
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:38.240Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:38.418Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:38.733Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:38.781Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:38.811Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:39.244Z
-client4-1  | Received response at 2023-12-25T02:23:33.720Z from http://server4:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:34.718Z from http://server1:3000/ping
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:36.726Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:36.777Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:36.810Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:37.238Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:37.417Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:37.736Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:37.778Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:37.812Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:42.795Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:42.818Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:39.419Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:39.744Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:39.780Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:39.812Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:40.250Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:40.421Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:40.742Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:40.795Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:40.815Z
-client3-1  | Received response at 2023-12-25T02:23:33.773Z from http://server3:3000/ping
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:41.254Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:41.424Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:41.747Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:41.798Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:41.816Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:43.257Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:43.438Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:43.751Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:43.798Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:43.816Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:44.264Z
-client5-1  | Received response at 2023-12-25T02:23:41.258Z from http://server3:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:42.261Z from http://server2:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:42.261Z from http://server4:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:42.262Z from http://server3:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:42.262Z from http://server1:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:43.260Z from http://server2:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:43.260Z from http://server4:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:43.261Z from http://server1:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:43.261Z from http://server3:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:44.265Z from http://server1:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:45.446Z from http://server2:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:45.446Z from http://server1:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:45.446Z from http://server3:3000/ping
-client2-1  | Received response at 2023-12-25T02:23:45.447Z from http://server4:3000/ping
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:42.258Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:42.432Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:42.750Z
-client5-1  | Received response at 2023-12-25T02:23:44.266Z from http://server2:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:44.266Z from http://server3:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:44.267Z from http://server4:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:45.267Z from http://server4:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:45.267Z from http://server1:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:45.268Z from http://server3:3000/ping
-client5-1  | Received response at 2023-12-25T02:23:45.268Z from http://server2:3000/ping
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:38.238Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:38.418Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:38.733Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:38.781Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:42.795Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:42.817Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:43.257Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:43.438Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:43.753Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:43.798Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:43.816Z
-client4-1  | Received response at 2023-12-25T02:23:34.719Z from http://server2:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:34.719Z from http://server4:3000/ping
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:44.443Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:44.754Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:44.801Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:44.822Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:45.264Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:45.444Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:45.757Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:45.807Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:44.262Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:44.444Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:44.756Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:44.801Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:44.821Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:45.266Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:45.444Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:45.757Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:45.807Z
-server2-1  | Incoming request POST, /ping received at 2023-12-25T02:23:45.823Z
-server4-1  | Incoming request POST, /ping received at 2023-12-25T02:23:45.823Z
-client3-1  | Received response at 2023-12-25T02:23:33.773Z from http://server4:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:34.770Z from http://server1:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:34.771Z from http://server3:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:34.771Z from http://server2:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:34.720Z from http://server3:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:35.722Z from http://server1:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:35.723Z from http://server2:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:35.724Z from http://server3:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:35.725Z from http://server4:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:36.729Z from http://server1:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:36.729Z from http://server2:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:36.730Z from http://server4:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:36.730Z from http://server3:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:37.738Z from http://server1:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:37.739Z from http://server2:3000/ping
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:38.811Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:39.244Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:39.419Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:39.742Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:39.781Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:42.795Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:42.818Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:39.811Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:40.248Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:40.421Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:40.742Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:40.792Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:40.815Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:41.254Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:41.423Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:41.747Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:41.797Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:43.259Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:43.439Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:43.753Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:43.797Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:43.816Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:41.817Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:42.258Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:42.432Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:42.749Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:42.795Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:42.817Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:43.257Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:43.437Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:43.751Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:43.797Z
-client4-1  | Received response at 2023-12-25T02:23:37.739Z from http://server3:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:37.740Z from http://server4:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:38.735Z from http://server2:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:38.736Z from http://server1:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:38.736Z from http://server3:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:38.737Z from http://server4:3000/ping
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:44.263Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:44.442Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:44.754Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:44.802Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:44.821Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:45.264Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:45.444Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:45.757Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:43.817Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:44.262Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:44.441Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:44.753Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:44.801Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:44.821Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:45.264Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:45.444Z
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:45.756Z
-client4-1  | Received response at 2023-12-25T02:23:39.745Z from http://server1:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:39.745Z from http://server3:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:39.746Z from http://server2:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:39.747Z from http://server4:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:40.744Z from http://server1:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:40.745Z from http://server2:3000/ping
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:45.806Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:45.808Z
-server3-1  | Incoming request POST, /ping received at 2023-12-25T02:23:45.823Z
-client3-1  | Received response at 2023-12-25T02:23:34.772Z from http://server4:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:35.777Z from http://server1:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:35.777Z from http://server3:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:40.746Z from http://server3:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:40.746Z from http://server4:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:41.750Z from http://server2:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:41.750Z from http://server1:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:41.751Z from http://server3:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:41.751Z from http://server4:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:42.751Z from http://server1:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:42.751Z from http://server2:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:42.752Z from http://server3:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:42.752Z from http://server4:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:35.778Z from http://server4:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:35.778Z from http://server2:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:43.754Z from http://server1:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:43.755Z from http://server2:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:43.755Z from http://server3:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:43.757Z from http://server4:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:44.756Z from http://server1:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:44.757Z from http://server3:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:44.757Z from http://server4:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:44.759Z from http://server2:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:45.759Z from http://server2:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:45.760Z from http://server1:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:45.760Z from http://server4:3000/ping
-client4-1  | Received response at 2023-12-25T02:23:45.762Z from http://server3:3000/ping
-server1-1  | Incoming request POST, /ping received at 2023-12-25T02:23:45.823Z
-client3-1  | Received response at 2023-12-25T02:23:36.780Z from http://server1:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:36.780Z from http://server2:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:36.781Z from http://server4:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:36.782Z from http://server3:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:37.781Z from http://server1:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:37.781Z from http://server2:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:37.782Z from http://server3:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:37.782Z from http://server4:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:38.783Z from http://server2:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:38.783Z from http://server3:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:38.784Z from http://server1:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:38.785Z from http://server4:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:39.781Z from http://server2:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:39.781Z from http://server4:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:39.782Z from http://server3:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:39.782Z from http://server1:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:40.795Z from http://server1:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:40.796Z from http://server3:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:40.797Z from http://server2:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:40.797Z from http://server4:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:41.799Z from http://server1:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:41.800Z from http://server4:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:41.800Z from http://server2:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:41.801Z from http://server3:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:42.796Z from http://server3:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:42.796Z from http://server1:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:42.797Z from http://server2:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:42.797Z from http://server4:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:43.798Z from http://server1:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:43.798Z from http://server3:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:43.799Z from http://server4:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:43.799Z from http://server2:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:44.802Z from http://server1:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:44.802Z from http://server2:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:44.803Z from http://server4:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:44.803Z from http://server3:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:45.809Z from http://server1:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:45.810Z from http://server2:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:45.810Z from http://server4:3000/ping
-client3-1  | Received response at 2023-12-25T02:23:45.811Z from http://server3:3000/ping
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:24.064Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:24.499Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:24.711Z
+client4-1  | Received response at 2023-12-26T09:46:36.981Z from http://server1:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:36.981Z from http://server2:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:36.981Z from http://server3:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:36.981Z from http://server4:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:27.663Z from http://server2:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:27.663Z from http://server3:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:37.983Z from http://server3:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:37.983Z from http://server4:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:27.664Z from http://server4:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:28.664Z from http://server3:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:37.984Z from http://server1:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:37.984Z from http://server2:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:38.983Z from http://server1:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:38.983Z from http://server2:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:38.983Z from http://server3:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:38.983Z from http://server4:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:28.664Z from http://server1:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:28.664Z from http://server2:3000/ping
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:24.963Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:25.478Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:25.662Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:25.948Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:26.482Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:26.595Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:26.664Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:26.943Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:27.465Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:27.587Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:27.662Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:27.945Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:28.379Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:28.467Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:28.588Z
+client1-1  | Received response at 2023-12-26T09:46:28.666Z from http://server4:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:29.669Z from http://server3:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:29.670Z from http://server1:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:29.670Z from http://server4:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:29.670Z from http://server2:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:30.666Z from http://server3:3000/ping
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:28.663Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:28.945Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:29.365Z
+client1-1  | Received response at 2023-12-26T09:46:30.666Z from http://server2:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:30.666Z from http://server1:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:30.667Z from http://server4:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:31.731Z from http://server1:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:31.731Z from http://server2:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:31.731Z from http://server4:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:31.732Z from http://server3:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:32.733Z from http://server4:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:32.734Z from http://server2:3000/ping
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:29.365Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:29.467Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:29.589Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:29.666Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:29.948Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:29.467Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:29.589Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:29.666Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:29.948Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:30.365Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:30.469Z
+client4-1  | Received response at 2023-12-26T09:46:39.984Z from http://server2:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:39.985Z from http://server3:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:39.985Z from http://server1:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:39.985Z from http://server4:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:40.988Z from http://server1:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:40.989Z from http://server3:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:40.990Z from http://server2:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:40.990Z from http://server4:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:41.988Z from http://server1:3000/ping
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:30.365Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:30.469Z
+client1-1  | Received response at 2023-12-26T09:46:32.734Z from http://server3:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:32.734Z from http://server1:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:33.734Z from http://server4:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:33.734Z from http://server2:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:33.734Z from http://server3:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:31.590Z from http://server1:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:33.736Z from http://server1:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:34.734Z from http://server2:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:34.734Z from http://server4:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:34.734Z from http://server1:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:34.735Z from http://server3:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:35.735Z from http://server1:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:35.735Z from http://server3:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:35.735Z from http://server2:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:35.736Z from http://server4:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:36.737Z from http://server2:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:36.737Z from http://server3:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:36.737Z from http://server1:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:36.739Z from http://server4:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:37.746Z from http://server3:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:37.746Z from http://server2:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:37.747Z from http://server1:3000/ping
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:30.589Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:30.665Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:30.948Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:31.366Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:31.469Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:27.587Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:31.589Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:31.730Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:31.949Z
+client1-1  | Received response at 2023-12-26T09:46:37.747Z from http://server4:3000/ping
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:32.368Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:32.481Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:30.590Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:30.665Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:30.949Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:31.366Z
+client1-1  | Received response at 2023-12-26T09:46:38.737Z from http://server1:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:38.737Z from http://server2:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:38.739Z from http://server4:3000/ping
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:32.595Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:32.732Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:32.950Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:33.367Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:33.471Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:27.662Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:27.945Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:28.379Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:28.468Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:29.589Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:29.668Z
+client1-1  | Received response at 2023-12-26T09:46:38.739Z from http://server3:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:39.739Z from http://server2:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:39.739Z from http://server1:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:39.741Z from http://server4:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:39.742Z from http://server3:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:40.742Z from http://server3:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:40.743Z from http://server2:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:40.743Z from http://server1:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:40.743Z from http://server4:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:41.740Z from http://server1:3000/ping
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:31.470Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:31.589Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:31.731Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:31.949Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:32.366Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:32.470Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:32.595Z
+client2-1  | Received response at 2023-12-26T09:46:31.590Z from http://server3:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:31.590Z from http://server2:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:32.596Z from http://server4:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:32.597Z from http://server1:3000/ping
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:33.593Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:33.735Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:33.977Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:34.369Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:32.732Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:32.950Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:33.367Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:33.471Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:33.593Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:33.733Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:33.978Z
+client4-1  | Received response at 2023-12-26T09:46:41.989Z from http://server2:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:41.989Z from http://server3:3000/ping
+client4-1  | Received response at 2023-12-26T09:46:41.990Z from http://server4:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:41.740Z from http://server2:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:41.741Z from http://server4:3000/ping
+client1-1  | Received response at 2023-12-26T09:46:41.741Z from http://server3:3000/ping
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:29.948Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:30.365Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:30.469Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:30.590Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:30.665Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:30.949Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:34.472Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:34.591Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:34.733Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:34.981Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:35.370Z
+client2-1  | Received response at 2023-12-26T09:46:32.597Z from http://server3:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:32.597Z from http://server2:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:33.593Z from http://server4:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:33.593Z from http://server2:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:33.593Z from http://server1:3000/ping
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:28.588Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:28.663Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:28.945Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:29.366Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:29.468Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:29.589Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:29.666Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:29.948Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:30.365Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:30.470Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:30.591Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:30.666Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:30.949Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:34.370Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:34.472Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:34.592Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:34.734Z
+client2-1  | Received response at 2023-12-26T09:46:33.594Z from http://server3:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:34.593Z from http://server1:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:34.593Z from http://server3:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:34.593Z from http://server4:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:34.593Z from http://server2:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:35.593Z from http://server2:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:35.593Z from http://server3:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:35.593Z from http://server4:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:35.595Z from http://server1:3000/ping
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:31.366Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:31.470Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:31.589Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:31.731Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:31.949Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:32.366Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:32.471Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:32.595Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:32.732Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:32.950Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:33.369Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:33.474Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:33.592Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:33.733Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:33.978Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:35.474Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:35.594Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:35.734Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:35.979Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:36.370Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:36.475Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:36.597Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:36.737Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:36.980Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:34.370Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:34.472Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:34.592Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:34.733Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:34.981Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:35.371Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:35.474Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:35.593Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:35.735Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:35.980Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:34.980Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:35.370Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:35.473Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:35.592Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:35.734Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:35.979Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:36.370Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:36.475Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:36.596Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:36.736Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:36.980Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:36.370Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:36.479Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:36.596Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:36.738Z
+client2-1  | Received response at 2023-12-26T09:46:36.597Z from http://server3:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:36.598Z from http://server4:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:36.598Z from http://server2:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:36.599Z from http://server1:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:37.596Z from http://server1:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:37.596Z from http://server2:3000/ping
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:31.366Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:31.470Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:31.589Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:37.371Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:37.477Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:37.595Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:37.744Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:37.983Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:38.375Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:38.479Z
+client2-1  | Received response at 2023-12-26T09:46:37.596Z from http://server4:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:37.597Z from http://server3:3000/ping
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:31.730Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:31.949Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:32.366Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:32.470Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:32.595Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:32.732Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:32.950Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:33.367Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:37.372Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:37.477Z
+client2-1  | Received response at 2023-12-26T09:46:38.600Z from http://server2:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:38.600Z from http://server4:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:38.601Z from http://server1:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:38.601Z from http://server3:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:39.599Z from http://server1:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:39.599Z from http://server3:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:39.600Z from http://server2:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:39.600Z from http://server4:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:40.610Z from http://server4:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:40.610Z from http://server3:3000/ping
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:36.981Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:37.372Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:37.478Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:37.596Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:37.744Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:37.982Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:38.376Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:38.481Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:38.598Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:38.738Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:38.982Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:39.377Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:39.482Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:39.598Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:39.740Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:39.984Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:40.379Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:40.484Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:40.610Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:40.742Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:33.471Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:33.592Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:33.733Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:33.978Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:34.370Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:34.472Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:34.592Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:34.733Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:34.980Z
+client2-1  | Received response at 2023-12-26T09:46:40.610Z from http://server1:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:40.614Z from http://server2:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:41.602Z from http://server2:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:41.603Z from http://server3:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:41.603Z from http://server1:3000/ping
+client2-1  | Received response at 2023-12-26T09:46:41.603Z from http://server4:3000/ping
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:40.988Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:41.382Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:41.486Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:41.602Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:37.595Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:37.744Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:37.982Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:38.374Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:38.481Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:38.600Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:38.738Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:38.982Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:39.377Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:39.482Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:39.598Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:39.741Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:39.983Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:40.379Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:40.484Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:40.610Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:40.741Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:40.987Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:41.381Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:41.486Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:41.602Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:41.740Z
+server3-1  | Incoming request POST, /ping received at 2023-12-26T09:46:41.988Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:35.370Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:35.473Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:35.592Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:38.599Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:38.736Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:38.981Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:39.377Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:39.482Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:39.598Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:39.737Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:39.984Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:40.379Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:40.484Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:40.610Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:40.742Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:40.987Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:41.381Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:41.486Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:41.602Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:41.740Z
+server1-1  | Incoming request POST, /ping received at 2023-12-26T09:46:41.987Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:41.740Z
+server4-1  | Incoming request POST, /ping received at 2023-12-26T09:46:41.989Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:35.734Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:35.980Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:36.371Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:36.475Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:36.596Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:36.736Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:36.980Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:37.371Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:37.477Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:37.595Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:37.744Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:37.983Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:38.374Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:38.479Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:38.598Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:38.736Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:38.982Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:39.377Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:39.482Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:39.598Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:39.737Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:39.983Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:40.379Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:40.484Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:40.609Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:40.742Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:40.988Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:41.381Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:41.486Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:41.601Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:41.740Z
+server2-1  | Incoming request POST, /ping received at 2023-12-26T09:46:41.987Z
+client5-1  | Starting client 5 with ports 3002 to 3005
+client5-1  | Received response at 2023-12-26T09:46:24.504Z from http://server1:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:24.504Z from http://server4:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:24.507Z from http://server3:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:24.508Z from http://server2:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:25.465Z from http://server2:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:25.468Z from http://server4:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:25.475Z from http://server1:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:25.479Z from http://server3:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:26.480Z from http://server1:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:26.483Z from http://server3:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:26.486Z from http://server2:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:26.489Z from http://server4:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:27.466Z from http://server2:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:27.466Z from http://server4:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:27.466Z from http://server3:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:27.467Z from http://server1:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:28.467Z from http://server2:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:28.468Z from http://server1:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:28.468Z from http://server3:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:28.469Z from http://server4:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:29.468Z from http://server2:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:29.469Z from http://server1:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:29.469Z from http://server3:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:29.470Z from http://server4:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:30.470Z from http://server3:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:30.470Z from http://server1:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:30.471Z from http://server2:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:30.471Z from http://server4:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:31.471Z from http://server1:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:31.471Z from http://server3:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:31.471Z from http://server4:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:31.471Z from http://server2:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:32.471Z from http://server3:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:32.472Z from http://server2:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:32.472Z from http://server4:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:32.482Z from http://server1:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:33.472Z from http://server2:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:33.472Z from http://server1:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:33.472Z from http://server3:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:33.475Z from http://server4:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:34.473Z from http://server1:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:34.473Z from http://server4:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:34.473Z from http://server3:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:34.473Z from http://server2:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:35.474Z from http://server3:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:35.474Z from http://server2:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:35.475Z from http://server4:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:35.475Z from http://server1:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:36.475Z from http://server1:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:36.476Z from http://server3:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:36.476Z from http://server2:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:36.480Z from http://server4:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:37.477Z from http://server1:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:37.478Z from http://server2:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:37.479Z from http://server4:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:37.490Z from http://server3:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:38.480Z from http://server2:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:38.480Z from http://server1:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:38.482Z from http://server3:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:38.482Z from http://server4:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:39.483Z from http://server2:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:39.483Z from http://server4:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:39.484Z from http://server1:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:39.484Z from http://server3:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:40.485Z from http://server1:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:40.485Z from http://server2:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:40.486Z from http://server3:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:40.486Z from http://server4:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:41.486Z from http://server2:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:41.487Z from http://server1:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:41.487Z from http://server4:3000/ping
+client5-1  | Received response at 2023-12-26T09:46:41.487Z from http://server3:3000/ping

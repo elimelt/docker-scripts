@@ -17,16 +17,33 @@ To invistigate this, I settled for a simple setup to measure throughput. I have 
 
 I also wrote a python script to generate a `docker-compose` file with a constant number of clients, and a parameter number of servers deployable. In this way, the overall load on the system should scale linearly with the number of servers provisioned. 
 
-To be clear, I am not pushing these nodes to their limit, and instead am putting a constant load on each of the servers, and seeing how overall system performance is maintained when the scale of an application increases linearly. I will run the same experiment with a variable number of servers all running in their own process.
+To be clear, I am not pushing these nodes to their limit, and instead am putting a constant load on each of the servers, and seeing how overall system performance is maintained when the scale of an application increases linearly.
 
+I ran the same experiment with a variable number of servers all running in their own process on my machine, and then compared how they performed.
 
 ## Running
-./generate-logs.sh contains the script to generate the logs for the benchmarking. It will generate files with the following format:
+
+Inside `./docker_deployment` and `./local_deployment, running `python3 run-sim.py` generates the logs for benchmarking docker and local deployments respectively.
+
+**Format:**
 
 ```
-results_<num-server-nodes>_servers.txt
+Report for <n> servers:
+Total Requests: <a>
+Total Responses: <b>
+Throughput: <c>
 ```
 
-You can analyze an individual log file with:
 
-TO BE CONT.
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,103 @@
+Processing generate-logs.sh
+Processing results_2_servers.txt
+Processing run-sim.py
+Processing docker_simulation.log
+Processing results_32_servers.txt
+Processing pong.sh
+Processing analyze-log.py
+Processing results_16_servers.txt
+Processing results_48_servers.txt
+Processing results_24_servers.txt
+Processing results_4_servers.txt
+Processing ping.sh
+Processing docker-compose-man.yaml
+Processing server
+Processing results_1_servers.txt
+Processing results_8_servers.txt
+Processing results_64_servers.txt
+Processing results_56_servers.txt
+Processing throughput-docker.png
+Processing docker-simulation.log
+Processing ping.rest
+Processing docker-compose.yml
+Processing docker-compose-temp.yml
+Processing client
+Processing results_40_servers.txt
+Processing generate-composer.py
+
+Report for 1 servers:
+Total Requests: 87.000
+Total Responses: 87.000
+Total Errors: 4.000
+Total Time: 17.602
+Throughput: 4.943
+
+Report for 2 servers:
+Total Requests: 163.000
+Total Responses: 163.000
+Total Errors: 7.000
+Total Time: 14.932
+Throughput: 10.916
+
+Report for 4 servers:
+Total Requests: 342.000
+Total Responses: 342.000
+Total Errors: 2.000
+Total Time: 13.106
+Throughput: 26.095
+
+Report for 8 servers:
+Total Requests: 731.000
+Total Responses: 731.000
+Total Errors: 45.000
+Total Time: 17.998
+Throughput: 40.616
+
+Report for 16 servers:
+Total Requests: 1621.000
+Total Responses: 1619.000
+Total Errors: 140.000
+Total Time: 21.171
+Throughput: 76.473
+
+Report for 24 servers:
+Total Requests: 2409.000
+Total Responses: 2409.000
+Total Errors: 231.000
+Total Time: 15.937
+Throughput: 151.158
+
+Report for 32 servers:
+Total Requests: 2202.000
+Total Responses: 2214.000
+Total Errors: 2455.000
+Total Time: 29.239
+Throughput: 75.721
+
+Report for 40 servers:
+Total Requests: 3470.000
+Total Responses: 3470.000
+Total Errors: 2610.000
+Total Time: 29.614
+Throughput: 117.174
+
+Report for 48 servers:
+Total Requests: 4745.000
+Total Responses: 4744.000
+Total Errors: 1496.000
+Total Time: 31.980
+Throughput: 148.343
+
+Report for 56 servers:
+Total Requests: 7653.000
+Total Responses: 7653.000
+Total Errors: 523.000
+Total Time: 20.719
+Throughput: 369.371
+
+Report for 64 servers:
+Total Requests: 10566.000
+Total Responses: 10532.000
+Total Errors: 2126.000
+Total Time: 53.157
+Throughput: 198.130

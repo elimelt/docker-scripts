@@ -4,7 +4,7 @@ def generate_docker_compose(num_servers, server_port_start = 3002):
     services = {}
     client_ports = []
 
-    # Generate server services
+    # generate server services
     for port in range(server_port_start, num_servers + server_port_start):
         service_name = f'server{port - server_port_start + 1}'
         port_mapping = f"\"{port}:{3000}\""
@@ -17,7 +17,7 @@ def generate_docker_compose(num_servers, server_port_start = 3002):
 
        
 
-    # Generate client services
+    # generate client services
     for port in range(4001, 4001 + 5):
         service_name = f'client{port - 4000}'
         port_mapping = f"\"{port}:{3000}\""
@@ -28,7 +28,7 @@ def generate_docker_compose(num_servers, server_port_start = 3002):
             "volumes": ["./client:/app"]
         }
 
-    # Convert services dictionary to yaml format
+    # convert services dictionary to yaml format
     docker_compose_content = "version: '3'\n\nservices:\n"
     for service, config in services.items():
         docker_compose_content += f"  {service}:\n"

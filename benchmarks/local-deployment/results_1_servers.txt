@@ -1,0 +1,210 @@
+Starting server 1...
+Starting client 1...
+Starting client 2...
+Starting client 3...
+Starting client 4...
+Starting client 5...
+Load testing started with 1 servers and 5 clients.
+client2  | Starting client 2 with ports 3006 to 3006
+client4  | Starting client 4 with ports 3006 to 3006
+client3  | Starting client 3 with ports 3006 to 3006
+client1  | Starting client 1 with ports 3006 to 3006
+client5  | Starting client 5 with ports 3006 to 3006
+server1  | server listening on port 3006
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:48.569Z
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:48.573Z
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:48.574Z
+client4  | Received response at 2023-12-26T08:42:48.574Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:48.575Z
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:48.575Z
+client3  | Received response at 2023-12-26T08:42:48.576Z from http://localhost:3006/ping
+client1  | Received response at 2023-12-26T08:42:48.578Z from http://localhost:3006/ping
+client5  | Received response at 2023-12-26T08:42:48.578Z from http://localhost:3006/ping
+client2  | Received response at 2023-12-26T08:42:48.578Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:49.538Z
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:49.540Z
+client3  | Received response at 2023-12-26T08:42:49.541Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:49.541Z
+client2  | Received response at 2023-12-26T08:42:49.542Z from http://localhost:3006/ping
+client4  | Received response at 2023-12-26T08:42:49.543Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:49.544Z
+client1  | Received response at 2023-12-26T08:42:49.546Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:49.547Z
+client5  | Received response at 2023-12-26T08:42:49.548Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:50.537Z
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:50.538Z
+client4  | Received response at 2023-12-26T08:42:50.538Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:50.539Z
+client3  | Received response at 2023-12-26T08:42:50.539Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:50.540Z
+client2  | Received response at 2023-12-26T08:42:50.541Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:50.541Z
+client1  | Received response at 2023-12-26T08:42:50.541Z from http://localhost:3006/ping
+client5  | Received response at 2023-12-26T08:42:50.542Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:51.535Z
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:51.535Z
+client3  | Received response at 2023-12-26T08:42:51.535Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:51.535Z
+client4  | Received response at 2023-12-26T08:42:51.536Z from http://localhost:3006/ping
+client2  | Received response at 2023-12-26T08:42:51.536Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:51.536Z
+client1  | Received response at 2023-12-26T08:42:51.537Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:51.540Z
+client5  | Received response at 2023-12-26T08:42:51.540Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:52.538Z
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:52.539Z
+client4  | Received response at 2023-12-26T08:42:52.540Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:52.540Z
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:52.541Z
+client3  | Received response at 2023-12-26T08:42:52.541Z from http://localhost:3006/ping
+client2  | Received response at 2023-12-26T08:42:52.542Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:52.542Z
+client1  | Received response at 2023-12-26T08:42:52.542Z from http://localhost:3006/ping
+client5  | Received response at 2023-12-26T08:42:52.543Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:53.541Z
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:53.542Z
+client2  | Received response at 2023-12-26T08:42:53.542Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:53.543Z
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:53.543Z
+client4  | Received response at 2023-12-26T08:42:53.543Z from http://localhost:3006/ping
+client3  | Received response at 2023-12-26T08:42:53.544Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:53.544Z
+client1  | Received response at 2023-12-26T08:42:53.545Z from http://localhost:3006/ping
+client5  | Received response at 2023-12-26T08:42:53.545Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:54.540Z
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:54.542Z
+client3  | Received response at 2023-12-26T08:42:54.543Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:54.543Z
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:54.544Z
+client2  | Received response at 2023-12-26T08:42:54.545Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:54.545Z
+client4  | Received response at 2023-12-26T08:42:54.546Z from http://localhost:3006/ping
+client1  | Received response at 2023-12-26T08:42:54.546Z from http://localhost:3006/ping
+client5  | Received response at 2023-12-26T08:42:54.547Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:55.542Z
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:55.543Z
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:55.544Z
+client4  | Received response at 2023-12-26T08:42:55.544Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:55.545Z
+client2  | Received response at 2023-12-26T08:42:55.545Z from http://localhost:3006/ping
+client3  | Received response at 2023-12-26T08:42:55.546Z from http://localhost:3006/ping
+client1  | Received response at 2023-12-26T08:42:55.546Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:55.547Z
+client5  | Received response at 2023-12-26T08:42:55.549Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:56.547Z
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:56.548Z
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:56.549Z
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:56.549Z
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:56.551Z
+client3  | Received response at 2023-12-26T08:42:56.551Z from http://localhost:3006/ping
+client1  | Received response at 2023-12-26T08:42:56.552Z from http://localhost:3006/ping
+client4  | Received response at 2023-12-26T08:42:56.552Z from http://localhost:3006/ping
+client2  | Received response at 2023-12-26T08:42:56.552Z from http://localhost:3006/ping
+client5  | Received response at 2023-12-26T08:42:56.554Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:57.544Z
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:57.545Z
+client2  | Received response at 2023-12-26T08:42:57.546Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:57.548Z
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:57.550Z
+client4  | Received response at 2023-12-26T08:42:57.553Z from http://localhost:3006/ping
+client3  | Received response at 2023-12-26T08:42:57.556Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:57.557Z
+client1  | Received response at 2023-12-26T08:42:57.557Z from http://localhost:3006/ping
+client5  | Received response at 2023-12-26T08:42:57.558Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:58.543Z
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:58.544Z
+client4  | Received response at 2023-12-26T08:42:58.544Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:58.545Z
+client2  | Received response at 2023-12-26T08:42:58.545Z from http://localhost:3006/ping
+client3  | Received response at 2023-12-26T08:42:58.546Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:58.547Z
+client1  | Received response at 2023-12-26T08:42:58.547Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:58.549Z
+client5  | Received response at 2023-12-26T08:42:58.550Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:59.543Z
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:59.544Z
+client2  | Received response at 2023-12-26T08:42:59.545Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:59.545Z
+client3  | Received response at 2023-12-26T08:42:59.545Z from http://localhost:3006/ping
+client4  | Received response at 2023-12-26T08:42:59.546Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:59.547Z
+client1  | Received response at 2023-12-26T08:42:59.548Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:42:59.550Z
+client5  | Received response at 2023-12-26T08:42:59.551Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:00.545Z
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:00.546Z
+client2  | Received response at 2023-12-26T08:43:00.546Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:00.546Z
+client3  | Received response at 2023-12-26T08:43:00.547Z from http://localhost:3006/ping
+client4  | Received response at 2023-12-26T08:43:00.547Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:00.549Z
+client1  | Received response at 2023-12-26T08:43:00.550Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:00.551Z
+client5  | Received response at 2023-12-26T08:43:00.552Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:01.546Z
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:01.547Z
+client4  | Received response at 2023-12-26T08:43:01.547Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:01.548Z
+client2  | Received response at 2023-12-26T08:43:01.548Z from http://localhost:3006/ping
+client3  | Received response at 2023-12-26T08:43:01.549Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:01.550Z
+client1  | Received response at 2023-12-26T08:43:01.551Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:01.552Z
+client5  | Received response at 2023-12-26T08:43:01.553Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:02.546Z
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:02.548Z
+client2  | Received response at 2023-12-26T08:43:02.548Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:02.548Z
+client4  | Received response at 2023-12-26T08:43:02.549Z from http://localhost:3006/ping
+client3  | Received response at 2023-12-26T08:43:02.550Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:02.550Z
+client1  | Received response at 2023-12-26T08:43:02.551Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:02.552Z
+client5  | Received response at 2023-12-26T08:43:02.553Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:03.547Z
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:03.548Z
+client2  | Received response at 2023-12-26T08:43:03.549Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:03.549Z
+client3  | Received response at 2023-12-26T08:43:03.549Z from http://localhost:3006/ping
+client4  | Received response at 2023-12-26T08:43:03.550Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:03.551Z
+client1  | Received response at 2023-12-26T08:43:03.552Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:03.552Z
+client5  | Received response at 2023-12-26T08:43:03.553Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:04.548Z
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:04.551Z
+client3  | Received response at 2023-12-26T08:43:04.551Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:04.551Z
+client2  | Received response at 2023-12-26T08:43:04.552Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:04.552Z
+client4  | Received response at 2023-12-26T08:43:04.552Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:04.553Z
+client1  | Received response at 2023-12-26T08:43:04.553Z from http://localhost:3006/ping
+client5  | Received response at 2023-12-26T08:43:04.554Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:05.548Z
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:05.549Z
+client3  | Received response at 2023-12-26T08:43:05.549Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:05.550Z
+client4  | Received response at 2023-12-26T08:43:05.550Z from http://localhost:3006/ping
+client2  | Received response at 2023-12-26T08:43:05.551Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:05.552Z
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:05.553Z
+client1  | Received response at 2023-12-26T08:43:05.553Z from http://localhost:3006/ping
+client5  | Received response at 2023-12-26T08:43:05.554Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:06.549Z
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:06.550Z
+client4  | Received response at 2023-12-26T08:43:06.550Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:06.550Z
+client3  | Received response at 2023-12-26T08:43:06.551Z from http://localhost:3006/ping
+client2  | Received response at 2023-12-26T08:43:06.551Z from http://localhost:3006/ping
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:06.553Z
+server1  | Incoming request POST, /ping received at 2023-12-26T08:43:06.554Z
+client1  | Received response at 2023-12-26T08:43:06.554Z from http://localhost:3006/ping
+client5  | Received response at 2023-12-26T08:43:06.555Z from http://localhost:3006/ping
+Cleaning up...
+Killing process 78867
+Killing process 78868
+Killing process 78869
+Killing process 78870
+Killing process 78871
+Killing process 78872

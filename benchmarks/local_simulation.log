@@ -1,0 +1,74 @@
+Processing results_2_servers.txt
+Processing run-sim.py
+Processing throughput.png
+Processing results_32_servers.txt
+Processing analyze-log.py
+Processing results_16_servers.txt
+Processing results_48_servers.txt
+Processing results_24_servers.txt
+Processing results_4_servers.txt
+Processing server
+Processing results_1_servers.txt
+Processing deploy-with.sh
+Processing results_8_servers.txt
+Processing results_64_servers.txt
+Processing results_56_servers.txt
+Processing throughput-local.png
+Processing client
+Processing results_40_servers.txt
+Processing local_simulation.log
+
+Report for 1 servers:
+Total Requests: 95.000
+Total Responses: 95.000
+Throughput: 1.638
+
+Report for 2 servers:
+Total Requests: 190.000
+Total Responses: 190.000
+Throughput: 10.560
+
+Report for 4 servers:
+Total Requests: 380.000
+Total Responses: 380.000
+Throughput: 21.075
+
+Report for 8 servers:
+Total Requests: 760.000
+Total Responses: 760.000
+Throughput: 13.085
+
+Report for 16 servers:
+Total Requests: 1520.000
+Total Responses: 1520.000
+Throughput: 84.170
+
+Report for 24 servers:
+Total Requests: 2280.000
+Total Responses: 2280.000
+Throughput: 126.256
+
+Report for 32 servers:
+Total Requests: 3040.000
+Total Responses: 3040.000
+Throughput: 52.234
+
+Report for 40 servers:
+Total Requests: 3800.000
+Total Responses: 3800.000
+Throughput: 208.576
+
+Report for 48 servers:
+Total Requests: 4560.000
+Total Responses: 4560.000
+Throughput: 250.829
+
+Report for 56 servers:
+Total Requests: 5320.000
+Total Responses: 5320.000
+Throughput: 91.343
+
+Report for 64 servers:
+Total Requests: 5760.000
+Total Responses: 5760.000
+Throughput: 330.249

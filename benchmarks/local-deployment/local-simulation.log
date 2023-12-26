@@ -1,0 +1,95 @@
+Processing results_2_servers.txt
+Processing run-sim.py
+Processing throughput.png
+Processing results_32_servers.txt
+Processing analyze-log.py
+Processing results_16_servers.txt
+Processing results_48_servers.txt
+Processing results_24_servers.txt
+Processing results_4_servers.txt
+Processing local-simulation.log
+Processing server
+Processing results_1_servers.txt
+Processing deploy-with.sh
+Processing results_8_servers.txt
+Processing results_64_servers.txt
+Processing results_56_servers.txt
+Processing client
+Processing results_40_servers.txt
+
+Report for 1 servers:
+Total Requests: 95.000
+Total Responses: 95.000
+Total Errors: 0.000
+Total Time: 17.981
+Throughput: 5.283
+
+Report for 2 servers:
+Total Requests: 190.000
+Total Responses: 190.000
+Total Errors: 0.000
+Total Time: 17.992
+Throughput: 10.560
+
+Report for 4 servers:
+Total Requests: 380.000
+Total Responses: 380.000
+Total Errors: 0.000
+Total Time: 18.032
+Throughput: 21.074
+
+Report for 8 servers:
+Total Requests: 760.000
+Total Responses: 760.000
+Total Errors: 0.000
+Total Time: 18.080
+Throughput: 42.035
+
+Report for 16 servers:
+Total Requests: 1520.000
+Total Responses: 1520.000
+Total Errors: 0.000
+Total Time: 18.059
+Throughput: 84.169
+
+Report for 24 servers:
+Total Requests: 2280.000
+Total Responses: 2280.000
+Total Errors: 0.000
+Total Time: 18.055
+Throughput: 126.281
+
+Report for 32 servers:
+Total Requests: 3040.000
+Total Responses: 3040.000
+Total Errors: 0.000
+Total Time: 18.197
+Throughput: 167.061
+
+Report for 40 servers:
+Total Requests: 3800.000
+Total Responses: 3800.000
+Total Errors: 0.000
+Total Time: 18.219
+Throughput: 208.573
+
+Report for 48 servers:
+Total Requests: 4560.000
+Total Responses: 4560.000
+Total Errors: 0.000
+Total Time: 18.180
+Throughput: 250.825
+
+Report for 56 servers:
+Total Requests: 5320.000
+Total Responses: 5320.000
+Total Errors: 0.000
+Total Time: 18.244
+Throughput: 291.603
+
+Report for 64 servers:
+Total Requests: 5760.000
+Total Responses: 5760.000
+Total Errors: 0.000
+Total Time: 17.439
+Throughput: 330.294

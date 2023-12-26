@@ -1,5 +1,7 @@
+import datetime
 import re
 import matplotlib.pyplot as plt
+import os
 
 def parse_log_file(filename):
     """
@@ -10,9 +12,9 @@ def parse_log_file(filename):
     
     requests = [line.strip() for line in content if "Incoming request POST" in line]
     responses = [line.strip() for line in content if "Received response at" in line]
-    # errors = [line.strip() for line in content if "Error" in line]
+    errors = [line.strip() for line in content if "Error" in line]
 
-    return requests, responses #, errors
+    return requests, responses, errors
 
 def count_incoming_requests(requests):
     """
@@ -33,24 +35,25 @@ def calculate_throughput(total_responses, total_time):
     return total_responses / total_time if total_time != 0 else 0
 
 def process_file(filename):
-    requests, responses = parse_log_file(filename)
+    requests, responses, errors = parse_log_file(filename)
     
-    total_requests = count_incoming_requests(requests)
-    total_responses = count_received_responses(responses)
+    total_requests = len(requests)
+    total_responses = len(responses)
+    total_errors = len(errors)
     
-    # Eextract timestamps from the first and last response to get total time 
-    first_response_time = re.search(r"at (\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}.\d{3}Z)", responses[0])
-    last_response_time = re.search(r"at (\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}.\d{3}Z)", responses[-1])
+    first_response_time_str = re.search(r"at (\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}.\d{3}Z)", responses[0]).group(1)
+    last_response_time_str = re.search(r"at (\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}.\d{3}Z)", responses[-1]).group(1)
     
-    if first_response_time and last_response_time:
-        total_time = float(last_response_time.group(1).replace('Z', '').replace('T', '').replace(':', '').replace('-', '')) - \
-                     float(first_response_time.group(1).replace('Z', '').replace('T', '').replace(':', '').replace('-', ''))
-    else:
-        total_time = 0
+    first_response_time = datetime.datetime.fromisoformat(first_response_time_str[:-1])  # Removing the 'Z' at the end
+    last_response_time = datetime.datetime.fromisoformat(last_response_time_str[:-1])    # Removing the 'Z' at the end
     
+    # Calculate total time
+    total_time = (last_response_time - first_response_time).total_seconds()
+
+
     throughput = calculate_throughput(total_responses, total_time)
     
-    return total_requests, total_responses, throughput
+    return total_requests, total_responses, total_errors, total_time, throughput,
 
 def parse_logs():
     num_servers_pattern = re.compile(r'results_(\d+)_servers.txt')
@@ -62,11 +65,13 @@ def parse_logs():
         if match:
 
             num_servers = int(match.group(1))
-            total_requests, total_responses, throughput = process_file(filename)
+            total_requests, total_responses, total_errors, total_time, throughput = process_file(filename)
 
             report[num_servers] = {
                 'Total Requests': total_requests,
                 'Total Responses': total_responses,
+                'Total Errors': total_errors,
+                'Total Time': total_time,
                 'Throughput': throughput
             }
 

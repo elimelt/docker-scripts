@@ -1,0 +1,74 @@
+Processing generate-logs.sh
+Processing results_2_servers.txt
+Processing run-sim.py
+Processing throughput.png
+Processing docker_simulation.log
+Processing pong.sh
+Processing analyze-log.py
+Processing results_16_servers.txt
+Processing results_48_servers.txt
+Processing results_24_servers.txt
+Processing results_4_servers.txt
+Processing ping.sh
+Processing docker-compose-man.yaml
+Processing server
+Processing results_1_servers.txt
+Processing results_8_servers.txt
+Processing results_64_servers.txt
+Processing results_56_servers.txt
+Processing ping.rest
+Processing docker-compose.yml
+Processing docker-compose-temp.yml
+Processing client
+Processing results_40_servers.txt
+Processing generate-composer.py
+
+Report for 1 servers:
+Total Requests: 77.000
+Total Responses: 77.000
+Throughput: 4.271
+
+Report for 2 servers:
+Total Requests: 148.000
+Total Responses: 148.000
+Throughput: 2.543
+
+Report for 4 servers:
+Total Requests: 316.000
+Total Responses: 316.000
+Throughput: 21.682
+
+Report for 8 servers:
+Total Requests: 728.000
+Total Responses: 728.000
+Throughput: 12.516
+
+Report for 16 servers:
+Total Requests: 1200.000
+Total Responses: 1200.000
+Throughput: 86.268
+
+Report for 24 servers:
+Total Requests: 2157.000
+Total Responses: 2157.000
+Throughput: 154.676
+
+Report for 40 servers:
+Total Requests: 3759.000
+Total Responses: 3759.000
+Throughput: 62.104
+
+Report for 48 servers:
+Total Requests: 3983.000
+Total Responses: 3965.000
+Throughput: 61.968
+
+Report for 56 servers:
+Total Requests: 5030.000
+Total Responses: 5028.000
+Throughput: 185.551
+
+Report for 64 servers:
+Total Requests: 5358.000
+Total Responses: 5358.000
+Throughput: 99.316
